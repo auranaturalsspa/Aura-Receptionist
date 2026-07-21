@@ -1,0 +1,17 @@
+{
+  "name": "aura-receptionist",
+  "version": "1.0.0",
+  "description": "AI receptionist for Aura Naturals & Wellness Spa - WhatsApp booking, FAQs, and reminders",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "reminders": "node scripts/sendReminders.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  }
+}
